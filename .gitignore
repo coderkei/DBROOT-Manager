@@ -1,0 +1,38 @@
+**/bin/
+**/obj/
+/artifacts/
+/TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Local IDE settings and publish credentials
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.pubxml.user
+
+# Local SDK/package caches
+.dotnet/
+.nuget/
+packages/
+
+# Player databases and local backups
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+!examples/DBROOT/*.db
+/Backups/
+
+# Temporary and operating-system files
+*.tmp
+*.bak
+*.log
+Thumbs.db
+Desktop.ini
+.DS_Store
